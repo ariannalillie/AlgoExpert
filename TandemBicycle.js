@@ -19,3 +19,5 @@ function tandemBicycle(redShirtSpeeds, blueShirtSpeeds, fastest) {
       }
       return counter;
   }
+
+  //solved pair programming with Barry
