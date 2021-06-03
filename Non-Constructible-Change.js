@@ -1,3 +1,6 @@
+// The min amount of change that can't be made with the
+//array of change
+
 function nonConstructibleChange(coins) {
     coins.sort((a, b) => a - b);
     console.log(coins)
