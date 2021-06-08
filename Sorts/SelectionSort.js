@@ -25,3 +25,6 @@ function swap (i, j, array) {
 	array[j] = array[i];
 	array[i] = temp;
 };
+
+let array = [8, 5, 2, 9, 5, 6, 3]
+console.log(selectionSort(array))
