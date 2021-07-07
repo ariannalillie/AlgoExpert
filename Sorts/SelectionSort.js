@@ -1,5 +1,3 @@
-import { swap } from './Swap.js';
-
 // time 0(n2) *nested loops*/ space 0(1)
 
 function selectionSort(array) {
@@ -22,11 +20,11 @@ function selectionSort(array) {
 };
 
 
-// function swap (i, j, array) {
-// 	const temp = array[j];
-// 	array[j] = array[i];
-// 	array[i] = temp;
-// };
+function swap (i, j, array) {
+	const temp = array[j];
+	array[j] = array[i];
+	array[i] = temp;
+};
 
 let array = [8, 5, 2, 9, 5, 6, 3]
 console.log(selectionSort(array))
