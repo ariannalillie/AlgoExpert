@@ -16,4 +16,4 @@ function romanNumberals(num) {
     return finalValArr.join('')
 };
 
-console.log(romanNumberals(49));
+console.log(romanNumberals(4));
