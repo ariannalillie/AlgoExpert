@@ -1,3 +1,5 @@
-my_name = 'Codecademy'
+# this is what a python comment looks like
 
-print('Hello and welcome ' + my_name)
+my_name = 'Arianna'
+
+print('Hello my name is ' + my_name)
