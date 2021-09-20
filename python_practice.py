@@ -60,3 +60,12 @@ print('Your name is {0} {1}'.format(first_name, last_name))
   #Formatting example 2
 print(f'Your name is {first_name} {last_name}')
 
+#Pythons replacement for null is None
+my_var = None
+
+#WHILE LOOPS
+
+count = 0
+while count < 10:
+    count += 1
+    print(count)
