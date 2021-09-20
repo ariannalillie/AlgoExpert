@@ -48,3 +48,15 @@ print("Spaghetti".index("h"))    # => 4
   #Find out how many times a substring appears in the primary string using count.
   # It returns zero if the substring is not there.
 print("Spaghetti".count("t"))    # => 2
+
+#FORMATTING
+
+#placeholder (a number inside of brackets)
+{0}
+first_name = "Billy"
+last_name = "Bob"
+  #Formatting example 1
+print('Your name is {0} {1}'.format(first_name, last_name))
+  #Formatting example 2
+print(f'Your name is {first_name} {last_name}')
+
