@@ -18,7 +18,7 @@ function App() {
 ```
 
 ### useEffect
-* useContext
+### useContext
 
 ## Additional Hooks
 * useReducer
