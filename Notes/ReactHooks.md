@@ -17,7 +17,7 @@ function App() {
   }
 ```
 
-* useEffect
+### useEffect
 * useContext
 
 ## Additional Hooks
