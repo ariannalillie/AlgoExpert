@@ -18,6 +18,8 @@ function App() {
 ```
 
 ### useEffect
+useEffect is a function that takes a function that you define. This function
+ will run everytime stateful data changes on the component.
 ### useContext
 
 ## Additional Hooks
