@@ -1,3 +1,5 @@
+// Part of a hackerEarth technical interview
+
 const getInput = () => new Promise(resolve => {
     let input = ''
     process.stdin.on('data', (data) => input += data);
