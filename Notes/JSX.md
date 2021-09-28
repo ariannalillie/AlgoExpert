@@ -49,3 +49,7 @@ ReactDOM.render(
   document.getElementById('app')
 );
 ```
+**ReactDOM.render() -** ReactDOM is the name of a JavaScript library that contains several React
+specific methods that deal with the DOM. ReactDOM is the most common way to render JSX. It takes a JSX
+expression and creates a corresponding tree of DOM nodes and adds that tree to the DOM. One special thing about
+ReactDOM.render() is that is only updates DOM elements that have changed. 
