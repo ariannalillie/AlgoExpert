@@ -32,3 +32,20 @@ const title = <h1 id='title'>Introduction to React.js: Part I</h1>;
 ```
 
 **JSX Expressions must have ONLY ONE outermost element**
+
+## Rendering JSX
+Rendering JSX means to make it appear on screen.
+
+``` JavaScript
+const toDoList = (
+  <ol>
+    <li>Learn React</li>
+    <li>Become a Developer</li>
+  </ol>
+);
+
+ReactDOM.render(
+  toDoList,
+  document.getElementById('app')
+);
+```
