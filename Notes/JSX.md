@@ -52,4 +52,53 @@ ReactDOM.render(
 **ReactDOM.render() -** ReactDOM is the name of a JavaScript library that contains several React
 specific methods that deal with the DOM. ReactDOM is the most common way to render JSX. It takes a JSX
 expression and creates a corresponding tree of DOM nodes and adds that tree to the DOM. One special thing about
-ReactDOM.render() is that is only updates DOM elements that have changed. 
+ReactDOM.render() is that is only updates DOM elements that have changed.
+
+## class vs className
+In JSX you can't use the word class, you must use the keyword className instead. This is because
+JSX gets translated into JavaScript and **class** is a resevred word in JavaScript. When JSX is rendered
+JSX className attributes are automatically rendered as class attributes.
+
+```JavaScript
+<h1 className="big">Hey</h1>
+```
+
+## Curly Braces in JSX
+Any code between the tags of a JSX element will read as JSX not as regular JavaScript,
+to change this code to JavaScript, you can do this by adding curly braces around the code.
+
+```JavaScript
+ReactDOM.render(
+  <h1>{2 + 3}</h1>,
+  document.getElementById('app')
+);
+```
+
+## If Statements in JSX
+**You cannot inject an if statement into a JSX expressiom**
+One way to get around this you can write an if statement that does not get injected into your JSX.
+
+```JavaScript
+if (user.age >= drinkingAge) {
+  message = (
+    <h1>
+      Hey, check out this alcoholic beverage!
+    </h1>
+  );
+} else {
+  message = (
+    <h1>
+      Hey, check out these earrings I got at Claire's!
+    </h1>
+  );
+}
+```
+Another way to get around this is by using a ternary operator.
+
+```JavaScript
+const headline = (
+  <h1>
+    { age >= drinkingAge ? 'Buy Drink' : 'Do Teen Stuff' }
+  </h1>
+);
+```
