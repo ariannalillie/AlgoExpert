@@ -1,6 +1,6 @@
 # Document Object Model
 The DOM is a tree of nodes that represent a webpage, it is then
-painted by the broser for users to see.
+painted by the browser for users to see.
 
 ## The Virtual DOM
 Some frontend frameworks, like Vue and React create their representation of
@@ -19,4 +19,3 @@ to JavaScript objects and then comparing them is much faster than tryng to do th
 ## Vocab
 **Diffing -** A process where the new virtual DOM is compared with the pre-update version
 and figures out exactly what DOM objects have changed.
-
