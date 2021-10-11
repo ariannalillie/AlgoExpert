@@ -34,4 +34,4 @@ function App() {
 
 * Use the spread syntax on collections of dynamic data to copy the previous state into the next state like so: setArrayState((prev) => [ ...prev ]) and setObjectState((prev) => ({ ...prev }))
 
-* Split state into multiple, simpler variables instead of throwing it all into one state object
+* Split state into multiple, simpler variables instead of throwing it all into one state object.
