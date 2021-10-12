@@ -30,7 +30,7 @@ function App() {
 
 * Use a state setter callback function when our next value depends on our previous value
 
-* Use arrays and objects to organize and manage related data that tends to change together
+* Use arrays and objects to organize and manage related data that tends to change together.
 
 * Use the spread syntax on collections of dynamic data to copy the previous state into the next state like so: setArrayState((prev) => [ ...prev ]) and setObjectState((prev) => ({ ...prev }))
 
