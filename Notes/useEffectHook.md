@@ -16,3 +16,9 @@ useEffect(() => {
   };
 }, []);
 ```
+
+```JavaScript
+useEffect(() => {
+  document.title = `You clicked ${count} times`;
+}, [count]); // Only re-run the effect if the value stored by count changes
+```
