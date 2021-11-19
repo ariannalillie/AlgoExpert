@@ -4,7 +4,7 @@ more or less. basically if there is a button on your page, there should be some 
 
 2. I'm following the instructions on the readme to set up. But it is throwing an error on the first line of code. It says the requirements files don't exist but they do.
 
-Wrong directory.
+Wrong directory
 
 
 
