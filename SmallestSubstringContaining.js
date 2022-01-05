@@ -5,10 +5,20 @@
 // substring must contain all duplicates on small string
 
 
+// HOW TO SOLVE
+// Count all the characters in the small string using a hashtable
+// Have a L and R pointer pointing to chars in our big string 
+
 function smallestSubstringContaining(bigString, smallString) {
     // Write your code here.
 };
 
+function getCharCounts(string) {
+    const charCounts = {};
+    for (const char of string) {
+
+    }
+}
 
 
 const bigStringTest = "abcd$ef$axb$c$"
