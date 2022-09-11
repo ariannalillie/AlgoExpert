@@ -18,4 +18,4 @@ to JavaScript objects and then comparing them is much faster than tryng to do th
 
 ## Vocab
 **Diffing -** A process where the new virtual DOM is compared with the pre-update version
-and figures out exactly what DOM objects have changed.
+and figures out exactly what DOM objects have changed
